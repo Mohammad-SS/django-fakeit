@@ -8,7 +8,7 @@ setup(
     author='MAzimi',
     license='MIT',
     install_requires=[],
-    setup_requires=['pytest-runner'],
+    setup_requires=['pytest-runner',"django"],
     tests_require=['pytest==4.4.1'],
     test_suite='tests',
 )
